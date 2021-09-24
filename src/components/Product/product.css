@@ -1,0 +1,29 @@
+.product{
+    display: flex;
+    padding: 15px 10px 15px;
+    border-bottom: 3px solid lightgray;
+    border-right: 3px solid lightgray;
+}
+.product-img{
+    width: 218px;
+    height: 218px;
+    margin-right: 20px;
+}
+.product-description h3, h4, h5 {
+    font-weight: 400;
+}
+.product-name{
+    color: blue;
+}
+.regular-btn{
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    width: 200px;
+    height: 26px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    border-radius: 3px;
+    vertical-align: middle;
+}

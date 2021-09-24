@@ -1,0 +1,42 @@
+.cart{
+    margin-top: 20px;
+    margin-left: 15px;
+    border: 5px solid grey;
+    height: 300px;
+    position: sticky;
+    top: 0;
+}
+.cart-header{
+    text-align: center;
+}
+.product-cost p, h3{
+    margin: 0px;
+    padding: 2px;
+}
+.total-order-text{
+    display: inline-block;
+    width: 150px;
+}
+.product-cost span{
+    display: inline-block;
+    width: 85px;
+}
+.product-cost small{
+    display: inline-block;
+    width: 150px;
+}
+.remove-decoration{
+    text-decoration: none;
+    color: black;
+}
+.total-price{
+    color: #b12704;
+}
+
+.right{
+    text-align: right;
+}
+.center{
+    margin-top: 10px;
+    text-align: center;
+}

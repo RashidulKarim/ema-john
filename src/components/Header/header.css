@@ -1,0 +1,61 @@
+.header-logo{
+    text-align: center;
+}
+.logo{
+    width: 288px;
+    height: 80px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    background-color: black;
+    line-height: 45px;
+}
+nav ul li{
+    margin-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 9px 5px 7px;
+    color: white;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: lightgray;
+    color: rgb(6, 1, 8);
+}
+.search-section{
+    text-align: center;
+    background-color: #222;
+    padding: 20px;
+    margin-top: -20px;
+}
+.search-field{
+    width: 60%;
+    height: 18px;
+    border: 3px solid gray;
+    font-size: 16px;
+    padding: 2px 10px 2px;
+    margin-right: 10px;
+}
+.search-btn{
+    width: 70px;
+    height: 29px;
+    border: 3px solid gray;
+    font-size: 15px;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: black;
+    color: white;
+}
+.cart-icon{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.cart-count{
+    color: #f08804;
+    font-size: 18px;
+    font-weight: 700;
+}
